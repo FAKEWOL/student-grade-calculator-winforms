@@ -1,0 +1,41 @@
+## Visual Studio / C# .gitignore
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Oo]bj/
+[Bb]in/
+[Tt]est[Rr]esult/
+[Tt]est[Rr]esults/
+
+# Visual Studio files
+.vs/
+.vscode/
+
+# NuGet packages
+packages/
+!packages/build/
+
+# Windows Forms specific
+*.csproj.user
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
